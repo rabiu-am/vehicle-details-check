@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="3" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-17T14:54:45 GMT" name="Surefire suite" finished-at="2024-12-17T14:55:59 GMT" duration-ms="73279">
+    <groups>
+    </groups>
+    <test started-at="2024-12-17T14:54:45 GMT" name="Surefire test" finished-at="2024-12-17T14:55:59 GMT" duration-ms="73279">
+      <class name="VehicleDetailsTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:54:45 GMT" name="setUp" finished-at="2024-12-17T14:54:50 GMT" duration-ms="4293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getVehicleDetailsWithOnlyRegistrationFieldFilled(java.lang.String)[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:54:50 GMT" name="getVehicleDetailsWithOnlyRegistrationFieldFilled" data-provider="testData" finished-at="2024-12-17T14:54:55 GMT" duration-ms="5698" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AD58VNF]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Value my car button is not enabled when mileage and postcode are blank.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Value my car button is not enabled when mileage and postcode are blank.
+at VehicleDetailsTests.getVehicleDetailsWithOnlyRegistrationFieldFilled(VehicleDetailsTests.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVehicleDetailsWithOnlyRegistrationFieldFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:54:55 GMT" name="tearDown" finished-at="2024-12-17T14:54:56 GMT" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:54:56 GMT" name="setUp" finished-at="2024-12-17T14:54:57 GMT" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getVehicleDetailsWithOnlyRegistrationFieldFilled(java.lang.String)[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:54:57 GMT" name="getVehicleDetailsWithOnlyRegistrationFieldFilled" data-provider="testData" finished-at="2024-12-17T14:55:03 GMT" duration-ms="5765" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BW57BOW]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Value my car button is not enabled when mileage and postcode are blank.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Value my car button is not enabled when mileage and postcode are blank.
+at VehicleDetailsTests.getVehicleDetailsWithOnlyRegistrationFieldFilled(VehicleDetailsTests.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVehicleDetailsWithOnlyRegistrationFieldFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:03 GMT" name="tearDown" finished-at="2024-12-17T14:55:04 GMT" duration-ms="963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:04 GMT" name="setUp" finished-at="2024-12-17T14:55:06 GMT" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getVehicleDetailsWithOnlyRegistrationFieldFilled(java.lang.String)[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:06 GMT" name="getVehicleDetailsWithOnlyRegistrationFieldFilled" data-provider="testData" finished-at="2024-12-17T14:55:10 GMT" duration-ms="4612" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KT17DLX]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Value my car button is not enabled when mileage and postcode are blank.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Value my car button is not enabled when mileage and postcode are blank.
+at VehicleDetailsTests.getVehicleDetailsWithOnlyRegistrationFieldFilled(VehicleDetailsTests.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVehicleDetailsWithOnlyRegistrationFieldFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:10 GMT" name="tearDown" finished-at="2024-12-17T14:55:10 GMT" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:10 GMT" name="setUp" finished-at="2024-12-17T14:55:12 GMT" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getVehicleDetailsWithOnlyRegistrationFieldFilled(java.lang.String)[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:12 GMT" name="getVehicleDetailsWithOnlyRegistrationFieldFilled" data-provider="testData" finished-at="2024-12-17T14:55:16 GMT" duration-ms="4343" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SG18HTN]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Value my car button is not enabled when mileage and postcode are blank.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Value my car button is not enabled when mileage and postcode are blank.
+at VehicleDetailsTests.getVehicleDetailsWithOnlyRegistrationFieldFilled(VehicleDetailsTests.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVehicleDetailsWithOnlyRegistrationFieldFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:16 GMT" name="tearDown" finished-at="2024-12-17T14:55:16 GMT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:16 GMT" name="setUp" finished-at="2024-12-17T14:55:17 GMT" duration-ms="1200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getVehicleDetailsWithAllFormFieldsFilled(java.lang.String)[pri:1, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:17 GMT" name="getVehicleDetailsWithAllFormFieldsFilled" data-provider="testData" finished-at="2024-12-17T14:55:32 GMT" duration-ms="14226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AD58VNF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVehicleDetailsWithAllFormFieldsFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:32 GMT" name="tearDown" finished-at="2024-12-17T14:55:32 GMT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:32 GMT" name="setUp" finished-at="2024-12-17T14:55:33 GMT" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getVehicleDetailsWithAllFormFieldsFilled(java.lang.String)[pri:1, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:33 GMT" name="getVehicleDetailsWithAllFormFieldsFilled" data-provider="testData" finished-at="2024-12-17T14:55:37 GMT" duration-ms="4217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BW57BOW]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVehicleDetailsWithAllFormFieldsFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:37 GMT" name="tearDown" finished-at="2024-12-17T14:55:37 GMT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:37 GMT" name="setUp" finished-at="2024-12-17T14:55:39 GMT" duration-ms="1352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getVehicleDetailsWithAllFormFieldsFilled(java.lang.String)[pri:1, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:39 GMT" name="getVehicleDetailsWithAllFormFieldsFilled" data-provider="testData" finished-at="2024-12-17T14:55:53 GMT" duration-ms="14599" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KT17DLX]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Vehicle Model details do not match entry in the CSV.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Vehicle Model details do not match entry in the CSV.
+at VehicleDetailsTests.getVehicleDetailsWithAllFormFieldsFilled(VehicleDetailsTests.java:124)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVehicleDetailsWithAllFormFieldsFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:53 GMT" name="tearDown" finished-at="2024-12-17T14:55:53 GMT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:53 GMT" name="setUp" finished-at="2024-12-17T14:55:55 GMT" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getVehicleDetailsWithAllFormFieldsFilled(java.lang.String)[pri:1, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:55 GMT" name="getVehicleDetailsWithAllFormFieldsFilled" data-provider="testData" finished-at="2024-12-17T14:55:58 GMT" duration-ms="3698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SG18HTN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getVehicleDetailsWithAllFormFieldsFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VehicleDetailsTests@3c419631]" started-at="2024-12-17T14:55:58 GMT" name="tearDown" finished-at="2024-12-17T14:55:59 GMT" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VehicleDetailsTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
